@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configs>
+    <append xpath="/entity_classes">
+        <entity_class name="companionDireWolf" extends="animalDireWolf">
+            <property name="Tags" value="entity,animal,friendly,wolf,companion"/>
+            <property name="Faction" value="whiteriver"/>
+            <property name="EntityFlags" value="animal"/>
+            <property name="ExperienceGain" value="0"/>
+            <property name="LootDropProb" value="0"/>
+            <property name="AITask" value="
+    ApproachAndAttackTarget class=EntityZombie,30,EntityEnemyAnimal,20|
+    Look|
+    Wander|
+    "/>
+            <property name="AITarget" value="
+    SetAsTargetIfHurt class=EntityZombie,EntityEnemyAnimal|
+    SetNearestEntityAsTarget class=EntityZombie,17,15,EntityEnemyAnimal,0,0|
+    "/>
+        </entity_class>
+        <entity_class name="companionBear" extends="animalBear">
+            <property name="Tags" value="entity,animal,friendly,bear,companion"/>
+            <property name="Faction" value="whiteriver"/>
+            <property name="EntityFlags" value="animal"/>
+            <property name="ExperienceGain" value="0"/>
+            <property name="LootDropProb" value="0"/>
+            <property name="AITask" value="
+    ApproachAndAttackTarget class=EntityZombie,30,EntityEnemyAnimal,20|
+    Look|
+    Wander|
+    "/>
+            <property name="AITarget" value="
+    SetAsTargetIfHurt class=EntityZombie,EntityEnemyAnimal|
+    SetNearestEntityAsTarget class=EntityZombie,17,15,EntityEnemyAnimal,0,0|
+    "/>
+        </entity_class>
+    </append>
+</configs>
+

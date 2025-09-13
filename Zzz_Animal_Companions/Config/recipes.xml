@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configs>
+    <append xpath="/recipes">
+        <recipe name="toolWolfWhistle" count="1" craft_area="workbench" craft_time="10" tags="craftingHarvestingTools,packMuleCrafting">  
+            <ingredient name="resourceMetalPipe" count="10"/>     
+            <ingredient name="resourceDuctTape" count="5"/>
+            <ingredient name="resourceLeather" count="5"/>
+        </recipe>
+        <recipe name="toolBearWhistle" count="1" craft_area="workbench" craft_time="10" tags="craftingHarvestingTools,packMuleCrafting">
+            <ingredient name="resourceMetalPipe" count="10"/>
+            <ingredient name="resourceDuctTape" count="5"/>
+            <ingredient name="resourceLeather" count="5"/>
+        </recipe>
+    </append>
+</configs>
+
