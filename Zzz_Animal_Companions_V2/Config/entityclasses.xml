@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configs>
+    <append xpath="/entity_classes">
+        <entity_class name="companionDireWolf" extends="animalDireWolf">
+            <property name="Tags" value="entity,animal,friendly,wolf,companion"/>
+            <property name="Faction" value="whiteriver"/>
+            <property name="EntityFlags" value="animal"/>
+            <property name="ExperienceGain" value="0"/>
+            <property name="LootDropProb" value="0"/>
+            <property name="AITask" value="
+    ApproachAndAttackTarget class=EntityZombie,30,EntityEnemyAnimal,20|
+    Look|
+    Wander|
+    "/>
+            <property name="AITarget" value="
+    SetAsTargetIfHurt class=EntityZombie,EntityEnemyAnimal|
+    SetNearestEntityAsTarget class=EntityZombie,17,15,EntityEnemyAnimal,0,0|
+    "/>
+            <!-- State CVars used by scripts: dwOwnerId, dwMounted, dwSaddled, dwStorageTier, dwVehicleId -->
+        </entity_class>
+        <entity_class name="companionBear" extends="animalBear">
+            <property name="Tags" value="entity,animal,friendly,bear,companion"/>
+            <property name="Faction" value="whiteriver"/>
+            <property name="EntityFlags" value="animal"/>
+            <property name="ExperienceGain" value="0"/>
+            <property name="LootDropProb" value="0"/>
+            <property name="AITask" value="
+    ApproachAndAttackTarget class=EntityZombie,30,EntityEnemyAnimal,20|
+    Look|
+    Wander|
+    "/>
+            <property name="AITarget" value="
+    SetAsTargetIfHurt class=EntityZombie,EntityEnemyAnimal|
+    SetNearestEntityAsTarget class=EntityZombie,17,15,EntityEnemyAnimal,0,0|
+    "/>
+        </entity_class>
+        <entity_class name="companionVulture" extends="animalZombieVulture">
+            <property name="Tags" value="entity,animal,friendly,vulture,companion"/>
+            <property name="Faction" value="whiteriver"/>
+            <property name="EntityFlags" value="animal"/>
+            <property name="ExperienceGain" value="0"/>
+            <property name="LootDropProb" value="0"/>
+            <property name="AITask" value="
+    ApproachAndAttackTarget class=EntityZombie,30,EntityEnemyAnimal,20|
+    Look|
+    Wander|
+    "/>
+            <property name="AITarget" value="
+    SetAsTargetIfHurt class=EntityZombie,EntityEnemyAnimal|
+    SetNearestEntityAsTarget class=EntityZombie,17,15,EntityEnemyAnimal,0,0|
+    "/>
+        </entity_class>
+        <entity_class name="companionMountainLion" extends="animalMountainLion">
+            <property name="Tags" value="entity,animal,friendly,mountainlion,companion"/>
+            <property name="Faction" value="whiteriver"/>
+            <property name="EntityFlags" value="animal"/>
+            <property name="ExperienceGain" value="0"/>
+            <property name="LootDropProb" value="0"/>
+            <property name="AITask" value="
+    ApproachAndAttackTarget class=EntityZombie,30,EntityEnemyAnimal,20|
+    Look|
+    Wander|
+    "/>
+            <property name="AITarget" value="
+    SetAsTargetIfHurt class=EntityZombie,EntityEnemyAnimal|
+    SetNearestEntityAsTarget class=EntityZombie,17,15,EntityEnemyAnimal,0,0|
+    "/>
+        </entity_class>
+        <entity_class name="companionCoyote" extends="animalCoyote">
+            <property name="Tags" value="entity,animal,friendly,coyote,companion"/>
+            <property name="Faction" value="whiteriver"/>
+            <property name="EntityFlags" value="animal"/>
+            <property name="ExperienceGain" value="0"/>
+            <property name="LootDropProb" value="0"/>
+            <property name="AITask" value="
+    ApproachAndAttackTarget class=EntityZombie,30,EntityEnemyAnimal,20|
+    Look|
+    Wander|
+    "/>
+            <property name="AITarget" value="
+    SetAsTargetIfHurt class=EntityZombie,EntityEnemyAnimal|
+    SetNearestEntityAsTarget class=EntityZombie,17,15,EntityEnemyAnimal,0,0|
+    "/>
+        </entity_class>
+        <!-- Vehicle placeholder used when riding the dire wolf. Extends motorcycle behavior. -->
+        <entity_class name="vehicleDireWolf" extends="vehicleMotorcycle">
+            <property name="Tags" value="entity,vehicle,direwolfvehicle,companion"/>
+            <property name="UserSpawnType" value="None"/>
+            <property name="ExperienceGain" value="0"/>
+            <property name="LootDropProb" value="0"/>
+            <property name="TimeStayAfterDeath" value="0"/>
+            <property name="EntityType" value="Vehicle"/>
+            <!-- Link cvars: dwOwnerId, dwLinkedWolfId -->
+        </entity_class>
+        <entity_class name="companionDoe" extends="animalDoe">
+            <property name="Tags" value="entity,animal,friendly,doe,deer,companion"/>
+            <property name="Faction" value="whiteriver"/>
+            <property name="EntityFlags" value="animal"/>
+            <property name="ExperienceGain" value="0"/>
+            <property name="LootDropProb" value="0"/>
+            <property name="AITask" value="
+    ApproachAndAttackTarget class=EntityZombie,30,EntityEnemyAnimal,20|
+    Look|
+    Wander|
+    "/>
+            <property name="AITarget" value="
+    SetAsTargetIfHurt class=EntityZombie,EntityEnemyAnimal|
+    SetNearestEntityAsTarget class=EntityZombie,17,15,EntityEnemyAnimal,0,0|
+    "/>
+        </entity_class>
+        <entity_class name="companionBuck" extends="animalStag">
+            <property name="Tags" value="entity,animal,friendly,buck,deer,companion"/>
+            <property name="Faction" value="whiteriver"/>
+            <property name="EntityFlags" value="animal"/>
+            <property name="ExperienceGain" value="0"/>
+            <property name="LootDropProb" value="0"/>
+            <property name="AITask" value="
+    ApproachAndAttackTarget class=EntityZombie,30,EntityEnemyAnimal,20|
+    Look|
+    Wander|
+    "/>
+            <property name="AITarget" value="
+    SetAsTargetIfHurt class=EntityZombie,EntityEnemyAnimal|
+    SetNearestEntityAsTarget class=EntityZombie,17,15,EntityEnemyAnimal,0,0|
+    "/>
+        </entity_class>
+        <entity_class name="companionSnake" extends="animalSnake">
+            <property name="Tags" value="entity,animal,friendly,snake,companion"/>
+            <property name="Faction" value="whiteriver"/>
+            <property name="EntityFlags" value="animal"/>
+            <property name="ExperienceGain" value="0"/>
+            <property name="LootDropProb" value="0"/>
+            <property name="AITask" value="
+    ApproachAndAttackTarget class=EntityZombie,30,EntityEnemyAnimal,20|
+    Look|
+    Wander|
+    "/>
+            <property name="AITarget" value="
+    SetAsTargetIfHurt class=EntityZombie,EntityEnemyAnimal|
+    SetNearestEntityAsTarget class=EntityZombie,17,15,EntityEnemyAnimal,0,0|
+    "/>
+        </entity_class>
+        <entity_class name="companionRabbit" extends="animalRabbit">
+            <property name="Tags" value="entity,animal,friendly,rabbit,bunny,companion"/>
+            <property name="Faction" value="whiteriver"/>
+            <property name="EntityFlags" value="animal"/>
+            <property name="ExperienceGain" value="0"/>
+            <property name="LootDropProb" value="0"/>
+            <property name="AITask" value="
+    ApproachAndAttackTarget class=EntityZombie,30,EntityEnemyAnimal,20|
+    Look|
+    Wander|
+    "/>
+            <property name="AITarget" value="
+    SetAsTargetIfHurt class=EntityZombie,EntityEnemyAnimal|
+    SetNearestEntityAsTarget class=EntityZombie,17,15,EntityEnemyAnimal,0,0|
+    "/>
+        </entity_class>
+    </append>
+</configs>
+

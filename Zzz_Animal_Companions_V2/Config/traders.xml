@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configs>
+    <append xpath="/traders/trader_item_groups/trader_item_group[@name='groupArmorLight']">
+        <item name="toolWolfWhistle" count="1"/>
+        <item name="toolVultureWhistle" count="1"/>
+        <item name="toolMountainLionWhistle" count="1"/>
+        <item name="toolCoyoteWhistle" count="1"/>
+        <item name="toolDoeWhistle" count="1"/>
+        <item name="toolBuckWhistle" count="1"/>
+        <item name="toolSnakeWhistle" count="1"/>
+        <item name="toolRabbitWhistle" count="1"/>
+    </append>
+    <append xpath="/traders/trader_item_groups/trader_item_group[@name='groupArmorMedium']">
+        <item name="toolWolfWhistle" count="1"/>
+        <item name="toolVultureWhistle" count="1"/>
+        <item name="toolMountainLionWhistle" count="1"/>
+        <item name="toolCoyoteWhistle" count="1"/>
+        <item name="toolDoeWhistle" count="1"/>
+        <item name="toolBuckWhistle" count="1"/>
+        <item name="toolSnakeWhistle" count="1"/>
+        <item name="toolRabbitWhistle" count="1"/>
+    </append>
+    <append xpath="/traders/trader_item_groups/trader_item_group[@name='groupArmorHeavy']">
+        <item name="toolWolfWhistle" count="1"/>
+        <item name="toolVultureWhistle" count="1"/>
+        <item name="toolMountainLionWhistle" count="1"/>
+        <item name="toolCoyoteWhistle" count="1"/>
+        <item name="toolDoeWhistle" count="1"/>
+        <item name="toolBuckWhistle" count="1"/>
+        <item name="toolSnakeWhistle" count="1"/>
+        <item name="toolRabbitWhistle" count="1"/>
+    </append>
+    <append xpath="/traders/trader_item_groups/trader_item_group[@name='groupFoodAll']">
+        <item name="toolWolfWhistle" count="1"/>
+        <item name="toolVultureWhistle" count="1"/>
+        <item name="toolMountainLionWhistle" count="1"/>
+        <item name="toolCoyoteWhistle" count="1"/>
+        <item name="toolDoeWhistle" count="1"/>
+        <item name="toolBuckWhistle" count="1"/>
+        <item name="toolSnakeWhistle" count="1"/>
+        <item name="toolRabbitWhistle" count="1"/>
+    </append>
+</configs>
+

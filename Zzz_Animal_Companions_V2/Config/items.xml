@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configs>
+    <!-- Summon whistle that spawns the companion dire wolf -->
+    <append xpath="/items">
+        <item name="toolWolfWhistle">
+            <property name="Tags" value="tool"/>
+            <property name="CustomIcon" value="direWolfWhistle" />
+            <property name="HoldType" value="40"/>
+            <property name="DisplayType" value="tool"/>
+            <property name="Meshfile" value="@:Other/Items/Misc/whistlePrefab.prefab"/>
+            <property name="Material" value="Mmetal"/>
+            <property name="Stacknumber" value="1"/>
+            <property name="EconomicValue" value="1000"/>
+            <property class="Action0">
+                <property name="Class" value="SpawnEntity"/>
+                <property name="Entity" value="companionDireWolf"/>
+                <property name="EntityOffset" value="0,0,1"/>
+            </property>
+            <property name="Group" value="Tools/Traps"/>
+        </item>
+        <item name="toolBearWhistle">
+            <property name="Tags" value="tool"/>
+            <property name="CustomIcon" value="companionBearWhistle" />
+            <property name="HoldType" value="40"/>
+            <property name="DisplayType" value="tool"/>
+            <property name="Meshfile" value="@:Other/Items/Misc/whistlePrefab.prefab"/>
+            <property name="Material" value="Mmetal"/>
+            <property name="Stacknumber" value="1"/>
+            <property name="EconomicValue" value="1000"/>
+            <property class="Action0">
+                <property name="Class" value="SpawnEntity"/>
+                <property name="Entity" value="companionBear"/>
+                <property name="EntityOffset" value="0,0,1"/>
+            </property>
+            <property name="Group" value="Tools/Traps"/>
+        </item>
+        <item name="toolVultureWhistle">
+            <property name="Tags" value="tool"/>
+            <property name="CustomIcon" value="companionVultureWhistle" />
+            <property name="HoldType" value="40"/>
+            <property name="DisplayType" value="tool"/>
+            <property name="Meshfile" value="@:Other/Items/Misc/whistlePrefab.prefab"/>
+            <property name="Material" value="Mmetal"/>
+            <property name="Stacknumber" value="1"/>
+            <property name="EconomicValue" value="1000"/>
+            <property class="Action0">
+                <property name="Class" value="SpawnEntity"/>
+                <property name="Entity" value="companionVulture"/>
+                <property name="EntityOffset" value="0,0,1"/>
+            </property>
+            <property name="Group" value="Tools/Traps"/>
+        </item>
+        <item name="toolMountainLionWhistle">
+            <property name="Tags" value="tool"/>
+            <property name="CustomIcon" value="companionMountainLionWhistle" />
+            <property name="HoldType" value="40"/>
+            <property name="DisplayType" value="tool"/>
+            <property name="Meshfile" value="@:Other/Items/Misc/whistlePrefab.prefab"/>
+            <property name="Material" value="Mmetal"/>
+            <property name="Stacknumber" value="1"/>
+            <property name="EconomicValue" value="1000"/>
+            <property class="Action0">
+                <property name="Class" value="SpawnEntity"/>
+                <property name="Entity" value="companionMountainLion"/>
+                <property name="EntityOffset" value="0,0,1"/>
+            </property>
+            <property name="Group" value="Tools/Traps"/>
+        </item>
+        <item name="toolCoyoteWhistle">
+            <property name="Tags" value="tool"/>
+            <property name="CustomIcon" value="companionCoyoteWhistle" />
+            <property name="HoldType" value="40"/>
+            <property name="DisplayType" value="tool"/>
+            <property name="Meshfile" value="@:Other/Items/Misc/whistlePrefab.prefab"/>
+            <property name="Material" value="Mmetal"/>
+            <property name="Stacknumber" value="1"/>
+            <property name="EconomicValue" value="1000"/>
+            <property class="Action0">
+                <property name="Class" value="SpawnEntity"/>
+                <property name="Entity" value="companionCoyote"/>
+                <property name="EntityOffset" value="0,0,1"/>
+            </property>
+            <property name="Group" value="Tools/Traps"/>
+        </item>
+        <item name="toolDoeWhistle">
+            <property name="Tags" value="tool"/>
+            <property name="CustomIcon" value="companionDoeWhistle" />
+            <property name="HoldType" value="40"/>
+            <property name="DisplayType" value="tool"/>
+            <property name="Meshfile" value="@:Other/Items/Misc/whistlePrefab.prefab"/>
+            <property name="Material" value="Mmetal"/>
+            <property name="Stacknumber" value="1"/>
+            <property name="EconomicValue" value="1000"/>
+            <property class="Action0">
+                <property name="Class" value="SpawnEntity"/>
+                <property name="Entity" value="companionDoe"/>
+                <property name="EntityOffset" value="0,0,1"/>
+            </property>
+            <property name="Group" value="Tools/Traps"/>
+        </item>
+        <item name="toolBuckWhistle">
+            <property name="Tags" value="tool"/>
+            <property name="CustomIcon" value="companionBuckWhistle" />
+            <property name="HoldType" value="40"/>
+            <property name="DisplayType" value="tool"/>
+            <property name="Meshfile" value="@:Other/Items/Misc/whistlePrefab.prefab"/>
+            <property name="Material" value="Mmetal"/>
+            <property name="Stacknumber" value="1"/>
+            <property name="EconomicValue" value="1000"/>
+            <property class="Action0">
+                <property name="Class" value="SpawnEntity"/>
+                <property name="Entity" value="companionBuck"/>
+                <property name="EntityOffset" value="0,0,1"/>
+            </property>
+            <property name="Group" value="Tools/Traps"/>
+        </item>
+        <item name="toolSnakeWhistle">
+            <property name="Tags" value="tool"/>
+            <property name="CustomIcon" value="companionSnakeWhistle" />
+            <property name="HoldType" value="40"/>
+            <property name="DisplayType" value="tool"/>
+            <property name="Meshfile" value="@:Other/Items/Misc/whistlePrefab.prefab"/>
+            <property name="Material" value="Mmetal"/>
+            <property name="Stacknumber" value="1"/>
+            <property name="EconomicValue" value="1000"/>
+            <property class="Action0">
+                <property name="Class" value="SpawnEntity"/>
+                <property name="Entity" value="companionSnake"/>
+                <property name="EntityOffset" value="0,0,1"/>
+            </property>
+            <property name="Group" value="Tools/Traps"/>
+        </item>
+        <item name="toolRabbitWhistle">
+            <property name="Tags" value="tool"/>
+            <property name="CustomIcon" value="companionRabbitWhistle" />
+            <property name="HoldType" value="40"/>
+            <property name="DisplayType" value="tool"/>
+            <property name="Meshfile" value="@:Other/Items/Misc/whistlePrefab.prefab"/>
+            <property name="Material" value="Mmetal"/>
+            <property name="Stacknumber" value="1"/>
+            <property name="EconomicValue" value="1000"/>
+            <property class="Action0">
+                <property name="Class" value="SpawnEntity"/>
+                <property name="Entity" value="companionRabbit"/>
+                <property name="EntityOffset" value="0,0,1"/>
+            </property>
+            <property name="Group" value="Tools/Traps"/>
+        </item>
+        <!-- Dire Wolf Saddle: installs a saddle on your companion wolf -->
+        <item name="itemWolfSaddle">
+            <property name="Tags" value="tool"/>
+            <property name="CustomIcon" value="direWolfSaddle" />
+            <property name="HoldType" value="40"/>
+            <property name="DisplayType" value="tool"/>
+            <property name="Meshfile" value="@modfolder:Zzz_DireWolfMod_v4_wolfbear(working)/Resources/direWolfSaddle.unity3d?direWolfSaddle_Prefab"/>
+            <property name="Material" value="Morganic"/>
+            <property name="Stacknumber" value="1"/>
+            <property name="EconomicValue" value="800"/>
+            <property name="Group" value="Tools/Traps"/>
+            <effect_group tiered="false" name="Install Wolf Saddle">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="dwInstallSaddleReq" operation="set" value="1"/>
+            </effect_group>
+        </item>
+
+        <!-- Dire Wolf Saddle Bags: upgrades wolf storage capacity when saddled -->
+        <item name="itemWolfSaddleBags">
+            <property name="Tags" value="tool"/>
+            <property name="CustomIcon" value="direWolfSaddle" />
+            <property name="HoldType" value="40"/>
+            <property name="DisplayType" value="tool"/>
+            <property name="Meshfile" value="@modfolder:Zzz_DireWolfMod_v4_wolfbear(working)/Resources/direWolfSaddle.unity3d?direWolfSaddle_Prefab"/>
+            <property name="Material" value="Morganic"/>
+            <property name="Stacknumber" value="1"/>
+            <property name="EconomicValue" value="600"/>
+            <property name="Group" value="Tools/Traps"/>
+            <effect_group tiered="false" name="Install Wolf Saddlebags">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="dwInstallBagsReq" operation="set" value="1"/>
+            </effect_group>
+        </item>
+    </append>
+</configs>
+
