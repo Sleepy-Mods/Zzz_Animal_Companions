@@ -1,5 +1,0 @@
-Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german,spanish,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese
-toolWolfWhistle,items,Misc,,,Wolf Whistle,,,,,,,,,,,,
-toolWolfWhistleDesc,items,Misc,,,Summon a friendly dire wolf to follow and protect you.,,,,,,,,,,,,
-companionDireWolf,entity,Entity,,,Dire Wolf Companion,,,,,,,,,,,,
-
