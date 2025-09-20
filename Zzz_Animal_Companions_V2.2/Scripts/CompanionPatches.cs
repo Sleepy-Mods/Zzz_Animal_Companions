@@ -383,12 +383,12 @@ namespace DireWolfMod
 				if (string.IsNullOrEmpty(ecn)) return;
 				if (ecn.StartsWith("companion", StringComparison.OrdinalIgnoreCase)) return;
 				if (!ecn.StartsWith("animal", StringComparison.OrdinalIgnoreCase) && !ecn.Contains("Vulture")) return;
-				if (UnityEngine.Random.value > 0.30f) return;
+				if (UnityEngine.Random.value > 0.60f) return;
 
 				string itemName = null;
 				if (string.Equals(ecn, "animalDireWolf", StringComparison.OrdinalIgnoreCase)) itemName = "itemDireWolfFang";
 				else if (string.Equals(ecn, "animalBear", StringComparison.OrdinalIgnoreCase)) itemName = "itemBearClaw";
-				else if (string.Equals(ecn, "animalZombieVulture", StringComparison.OrdinalIgnoreCase) || string.Equals(ecn, "animalVulture", StringComparison.OrdinalIgnoreCase)) itemName = "itemVultureFeather";
+				else if (string.Equals(ecn, "animalZombieVulture", StringComparison.OrdinalIgnoreCase)) itemName = "itemVultureTalons";
 				else if (string.Equals(ecn, "animalMountainLion", StringComparison.OrdinalIgnoreCase)) itemName = "itemMountainLionClaw";
 				else if (string.Equals(ecn, "animalCoyote", StringComparison.OrdinalIgnoreCase)) itemName = "itemCoyoteFang";
 				else if (string.Equals(ecn, "animalWolf", StringComparison.OrdinalIgnoreCase)) itemName = "itemWolfFang";

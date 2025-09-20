@@ -371,15 +371,6 @@
             <property name="CreativeMode" value="Player"/>
             <property name="Group" value="Resources"/>
         </item>
-         <item name="itemDireWolfClaw">
-            <property name="CustomIcon" value="itemDireWolfClaw" />
-            <property name="Meshfile" value="@:Other/Items/Misc/whistlePrefab.prefab"/>
-            <property name="Material" value="Morganic"/>
-            <property name="Stacknumber" value="100"/>
-            <property name="EconomicValue" value="80"/>
-            <property name="CreativeMode" value="Player"/>
-            <property name="Group" value="Resources"/>
-        </item>
         <item name="itemWolfFang">
             <property name="CustomIcon" value="itemWolfFang" />
             <property name="Meshfile" value="@:Other/Items/Misc/whistlePrefab.prefab"/>
@@ -398,8 +389,8 @@
             <property name="CreativeMode" value="Player"/>
             <property name="Group" value="Resources"/>
         </item>
-        <item name="itemVultureFeather">
-            <property name="CustomIcon" value="itemVultureFeather" />
+        <item name="itemVultureTalons">
+            <property name="CustomIcon" value="itemVultureTalons" />
             <property name="Meshfile" value="@:Other/Items/Misc/whistlePrefab.prefab"/>
             <property name="Material" value="Morganic"/>
             <property name="Stacknumber" value="100"/>
@@ -408,7 +399,7 @@
             <property name="Group" value="Resources"/>
         </item>
         <item name="itemMountainLionClaw">
-            <property name="CustomIcon" value="direWolfClaw" />
+            <property name="CustomIcon" value="itemMountainLionClaw" />
             <property name="Meshfile" value="@:Other/Items/Misc/whistlePrefab.prefab"/>
             <property name="Material" value="Morganic"/>
             <property name="Stacknumber" value="100"/>
@@ -417,7 +408,7 @@
             <property name="Group" value="Resources"/>
         </item>
         <item name="itemCoyoteFang">
-            <property name="CustomIcon" value="direWolfFang" />
+            <property name="CustomIcon" value="itemCoyoteFang" />
             <property name="Meshfile" value="@:Other/Items/Misc/whistlePrefab.prefab"/>
             <property name="Material" value="Morganic"/>
             <property name="Stacknumber" value="100"/>
@@ -426,7 +417,7 @@
             <property name="Group" value="Resources"/>
         </item>
         <item name="itemSnakeScale">
-            <property name="CustomIcon" value="companionSnakeWhistle" />
+            <property name="CustomIcon" value="itemSnakeScale" />
             <property name="Meshfile" value="@:Other/Items/Misc/whistlePrefab.prefab"/>
             <property name="Material" value="Morganic"/>
             <property name="Stacknumber" value="100"/>
@@ -435,7 +426,7 @@
             <property name="Group" value="Resources"/>
         </item>
         <item name="itemDoeTail">
-            <property name="CustomIcon" value="companionDoeWhistle" />
+            <property name="CustomIcon" value="itemDoeTail" />
             <property name="Meshfile" value="@:Other/Items/Misc/whistlePrefab.prefab"/>
             <property name="Material" value="Morganic"/>
             <property name="Stacknumber" value="100"/>
@@ -444,7 +435,7 @@
             <property name="Group" value="Resources"/>
         </item>
         <item name="itemBuckAntler">
-            <property name="CustomIcon" value="companionBuckWhistle" />
+            <property name="CustomIcon" value="itemBuckAntler" />
             <property name="Meshfile" value="@:Other/Items/Misc/whistlePrefab.prefab"/>
             <property name="Material" value="Morganic"/>
             <property name="Stacknumber" value="100"/>

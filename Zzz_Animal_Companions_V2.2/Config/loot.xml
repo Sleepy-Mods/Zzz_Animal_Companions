@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configs>
+    <!-- Guaranteed ingredient group for companion whistles -->
+    <append xpath="/loot">
+        <lootgroup name="groupCompanionWhistleIngredient" count="1">
+            <item name="itemDireWolfFang" count="1"/>
+            <item name="itemBearClaw" count="1"/>
+            <item name="itemVultureTalons" count="1"/>
+            <item name="itemMountainLionClaw" count="1"/>
+            <item name="itemCoyoteFang" count="1"/>
+            <item name="itemDoeTail" count="1"/>
+            <item name="itemBuckAntler" count="1"/>
+            <item name="itemSnakeScale" count="1"/>
+            <item name="itemRabbitFoot" count="1"/>
+        </lootgroup>
+
+        <!-- Animal companion loot bag that always includes 1 whistle ingredient -->
+        <lootcontainer name="zPackAnimalComp" count="1" size="6,3" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="qualBaseTemplate" ignore_loot_abundance="true">
+            <item group="groupCompanionWhistleIngredient" count="1"/>
+            <item group="groupCraftingCommon"/>
+            <item group="groupScrapCommon"/>
+        </lootcontainer>
+
+        <!-- Dire Wolf specific kill bag: points to a group that returns both items -->
+        <lootgroup name="groupDireWolfAlwaysBoth" count="all">
+            <item name="itemDireWolfFang" count="1"/>
+        </lootgroup>
+        <lootcontainer name="zPackDireWolf" count="1" size="6,3" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="qualBaseTemplate" ignore_loot_abundance="true">
+            <item group="groupDireWolfAlwaysBoth"/>
+            <item group="groupCraftingCommon"/>
+        </lootcontainer>
+    </append>
+</configs>
+
+
