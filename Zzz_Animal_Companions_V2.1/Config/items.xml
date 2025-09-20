@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configs>
+    <!-- Summon whistle that spawns the companion dire wolf -->
+    <append xpath="/items">
+        <item name="toolWolfWhistle">
+            <property name="Tags" value="tool"/>
+            <property name="CustomIcon" value="direWolfWhistle" />
+            <property name="HoldType" value="40"/>
+            <property name="DisplayType" value="tool"/>
+            <property name="Meshfile" value="@:Other/Items/Misc/whistlePrefab.prefab"/>
+            <property name="Material" value="Mmetal"/>
+            <property name="Stacknumber" value="1"/>
+            <property name="EconomicValue" value="1000"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="EntityClass" value="companionDireWolf"/>
+            <property class="Action0">
+                <property name="Class" value="SpawnEntity"/>
+                <property name="Entity" value="companionDireWolf"/>
+                <property name="EntityOffset" value="0,0,1"/>
+            </property>
+            <property name="Group" value="Tools/Traps"/>
+        </item>
+        <item name="toolBearWhistle">
+            <property name="Tags" value="tool"/>
+            <property name="CustomIcon" value="companionBearWhistle" />
+            <property name="HoldType" value="40"/>
+            <property name="DisplayType" value="tool"/>
+            <property name="Meshfile" value="@:Other/Items/Misc/whistlePrefab.prefab"/>
+            <property name="Material" value="Mmetal"/>
+            <property name="Stacknumber" value="1"/>
+            <property name="EconomicValue" value="1000"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="EntityClass" value="companionBear"/>
+            <property class="Action0">
+                <property name="Class" value="SpawnEntity"/>
+                <property name="Entity" value="companionBear"/>
+                <property name="EntityOffset" value="0,0,1"/>
+            </property>
+            <property name="Group" value="Tools/Traps"/>
+        </item>
+        <item name="toolVultureWhistle">
+            <property name="Tags" value="tool"/>
+            <property name="CustomIcon" value="companionVultureWhistle" />
+            <property name="HoldType" value="40"/>
+            <property name="DisplayType" value="tool"/>
+            <property name="Meshfile" value="@:Other/Items/Misc/whistlePrefab.prefab"/>
+            <property name="Material" value="Mmetal"/>
+            <property name="Stacknumber" value="1"/>
+            <property name="EconomicValue" value="1000"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="EntityClass" value="companionVulture"/>
+            <property class="Action0">
+                <property name="Class" value="SpawnEntity"/>
+                <property name="Entity" value="companionVulture"/>
+                <property name="EntityOffset" value="0,0,1"/>
+            </property>
+            <property name="Group" value="Tools/Traps"/>
+        </item>
+        <item name="toolMountainLionWhistle">
+            <property name="Tags" value="tool"/>
+            <property name="CustomIcon" value="companionMountainLionWhistle" />
+            <property name="HoldType" value="40"/>
+            <property name="DisplayType" value="tool"/>
+            <property name="Meshfile" value="@:Other/Items/Misc/whistlePrefab.prefab"/>
+            <property name="Material" value="Mmetal"/>
+            <property name="Stacknumber" value="1"/>
+            <property name="EconomicValue" value="1000"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="EntityClass" value="companionMountainLion"/>
+            <property class="Action0">
+                <property name="Class" value="SpawnEntity"/>
+                <property name="Entity" value="companionMountainLion"/>
+                <property name="EntityOffset" value="0,0,1"/>
+            </property>
+            <property name="Group" value="Tools/Traps"/>
+        </item>
+        <item name="toolCoyoteWhistle">
+            <property name="Tags" value="tool"/>
+            <property name="CustomIcon" value="companionCoyoteWhistle" />
+            <property name="HoldType" value="40"/>
+            <property name="DisplayType" value="tool"/>
+            <property name="Meshfile" value="@:Other/Items/Misc/whistlePrefab.prefab"/>
+            <property name="Material" value="Mmetal"/>
+            <property name="Stacknumber" value="1"/>
+            <property name="EconomicValue" value="1000"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="EntityClass" value="companionCoyote"/>
+            <property class="Action0">
+                <property name="Class" value="SpawnEntity"/>
+                <property name="Entity" value="companionCoyote"/>
+                <property name="EntityOffset" value="0,0,1"/>
+            </property>
+            <property name="Group" value="Tools/Traps"/>
+        </item>
+        <item name="toolDoeWhistle">
+            <property name="Tags" value="tool"/>
+            <property name="CustomIcon" value="companionDoeWhistle" />
+            <property name="HoldType" value="40"/>
+            <property name="DisplayType" value="tool"/>
+            <property name="Meshfile" value="@:Other/Items/Misc/whistlePrefab.prefab"/>
+            <property name="Material" value="Mmetal"/>
+            <property name="Stacknumber" value="1"/>
+            <property name="EconomicValue" value="1000"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="EntityClass" value="companionDoe"/>
+            <property class="Action0">
+                <property name="Class" value="SpawnEntity"/>
+                <property name="Entity" value="companionDoe"/>
+                <property name="EntityOffset" value="0,0,1"/>
+            </property>
+            <property name="Group" value="Tools/Traps"/>
+        </item>
+        <item name="toolBuckWhistle">
+            <property name="Tags" value="tool"/>
+            <property name="CustomIcon" value="companionBuckWhistle" />
+            <property name="HoldType" value="40"/>
+            <property name="DisplayType" value="tool"/>
+            <property name="Meshfile" value="@:Other/Items/Misc/whistlePrefab.prefab"/>
+            <property name="Material" value="Mmetal"/>
+            <property name="Stacknumber" value="1"/>
+            <property name="EconomicValue" value="1000"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="EntityClass" value="companionBuck"/>
+            <property class="Action0">
+                <property name="Class" value="SpawnEntity"/>
+                <property name="Entity" value="companionBuck"/>
+                <property name="EntityOffset" value="0,0,1"/>
+            </property>
+            <property name="Group" value="Tools/Traps"/>
+        </item>
+        <item name="toolSnakeWhistle">
+            <property name="Tags" value="tool"/>
+            <property name="CustomIcon" value="companionSnakeWhistle" />
+            <property name="HoldType" value="40"/>
+            <property name="DisplayType" value="tool"/>
+            <property name="Meshfile" value="@:Other/Items/Misc/whistlePrefab.prefab"/>
+            <property name="Material" value="Mmetal"/>
+            <property name="Stacknumber" value="1"/>
+            <property name="EconomicValue" value="1000"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="EntityClass" value="companionSnake"/>
+            <property class="Action0">
+                <property name="Class" value="SpawnEntity"/>
+                <property name="Entity" value="companionSnake"/>
+                <property name="EntityOffset" value="0,0,1"/>
+            </property>
+            <property name="Group" value="Tools/Traps"/>
+        </item>
+        <item name="toolRabbitWhistle">
+            <property name="Tags" value="tool"/>
+            <property name="CustomIcon" value="companionRabbitWhistle" />
+            <property name="HoldType" value="40"/>
+            <property name="DisplayType" value="tool"/>
+            <property name="Meshfile" value="@:Other/Items/Misc/whistlePrefab.prefab"/>
+            <property name="Material" value="Mmetal"/>
+            <property name="Stacknumber" value="1"/>
+            <property name="EconomicValue" value="1000"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="EntityClass" value="companionRabbit"/>
+            <property class="Action0">
+                <property name="Class" value="SpawnEntity"/>
+                <property name="Entity" value="companionRabbit"/>
+                <property name="EntityOffset" value="0,0,1"/>
+            </property>
+            <property name="Group" value="Tools/Traps"/>
+        </item>
+        <!-- Dire Wolf Saddle: installs a saddle on your companion wolf -->
+        <item name="itemWolfSaddle">
+            <property name="Tags" value="tool"/>
+            <property name="CustomIcon" value="direWolfSaddle" />
+            <property name="HoldType" value="40"/>
+            <property name="DisplayType" value="tool"/>
+            <property name="Meshfile" value="@modfolder:Zzz_DireWolfMod_v4_wolfbear(working)WE_CAN_RIDE_V_Key/Resources/direWolfSaddle.unity3d?direWolfSaddle_Prefab"/>
+            <property name="Material" value="Morganic"/>
+            <property name="Stacknumber" value="1"/>
+            <property name="EconomicValue" value="800"/>
+            <property name="CreativeMode" value="None"/>
+            <property name="Group" value="Tools/Traps"/>
+            <!-- Disabled: saddle no longer required or installable -->
+        </item>
+
+        <!-- Dire Wolf Saddle Bags: upgrades wolf storage capacity when saddled -->
+        <item name="itemWolfSaddleBags">
+            <property name="Tags" value="tool"/>
+            <property name="CustomIcon" value="direWolfSaddle" />
+            <property name="HoldType" value="40"/>
+            <property name="DisplayType" value="tool"/>
+            <property name="Meshfile" value="@modfolder:Zzz_DireWolfMod_v4_wolfbear(working)WE_CAN_RIDE_V_Key/Resources/direWolfSaddle.unity3d?direWolfSaddle_Prefab"/>
+            <property name="Material" value="Morganic"/>
+            <property name="Stacknumber" value="1"/>
+            <property name="EconomicValue" value="600"/>
+            <property name="CreativeMode" value="None"/>
+            <property name="Group" value="Tools/Traps"/>
+            <!-- Disabled: saddlebags not used currently -->
+        </item>
+
+        <!-- Companion pickup/deploy tokens (place to re-summon the picked-up companion) -->
+        <item name="itemCaptureDireWolf">
+            <property name="Tags" value="tool"/>
+            <property name="CustomIcon" value="direWolfWhistle" />
+            <property name="HoldType" value="40"/>
+            <property name="DisplayType" value="tool"/>
+            <property name="Meshfile" value="@:Other/Items/Misc/whistlePrefab.prefab"/>
+            <property name="Material" value="Morganic"/>
+            <property name="Stacknumber" value="1"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="EntityClass" value="companionDireWolf"/>
+            <property class="Action0">
+                <property name="Class" value="DireWolfMod.ItemActionDeployDireCompanion, DireWolfMod"/>
+            </property>
+            <property name="Group" value="Tools/Traps"/>
+        </item>
+        <item name="itemCaptureDireWolfFire">
+            <property name="Tags" value="tool"/>
+            <property name="CustomIcon" value="direWolfWhistle" />
+            <property name="HoldType" value="40"/>
+            <property name="DisplayType" value="tool"/>
+            <property name="Meshfile" value="@:Other/Items/Misc/whistlePrefab.prefab"/>
+            <property name="Material" value="Morganic"/>
+            <property name="Stacknumber" value="1"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="EntityClass" value="companionDireWolfFire"/>
+            <property class="Action0">
+                <property name="Class" value="DireWolfMod.ItemActionDeployDireCompanion, DireWolfMod"/>
+            </property>
+            <property name="Group" value="Tools/Traps"/>
+        </item>
+        <item name="itemCaptureBear">
+            <property name="Tags" value="tool"/>
+            <property name="CustomIcon" value="companionBearWhistle" />
+            <property name="HoldType" value="40"/>
+            <property name="DisplayType" value="tool"/>
+            <property name="Meshfile" value="@:Other/Items/Misc/whistlePrefab.prefab"/>
+            <property name="Material" value="Morganic"/>
+            <property name="Stacknumber" value="1"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="EntityClass" value="companionBear"/>
+            <property class="Action0">
+                <property name="Class" value="DireWolfMod.ItemActionDeployDireCompanion, DireWolfMod"/>
+            </property>
+            <property name="Group" value="Tools/Traps"/>
+        </item>
+        <item name="itemCaptureVulture">
+            <property name="Tags" value="tool"/>
+            <property name="CustomIcon" value="companionVultureWhistle" />
+            <property name="HoldType" value="40"/>
+            <property name="DisplayType" value="tool"/>
+            <property name="Meshfile" value="@:Other/Items/Misc/whistlePrefab.prefab"/>
+            <property name="Material" value="Morganic"/>
+            <property name="Stacknumber" value="1"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="EntityClass" value="companionVulture"/>
+            <property class="Action0">
+                <property name="Class" value="DireWolfMod.ItemActionDeployDireCompanion, DireWolfMod"/>
+            </property>
+            <property name="Group" value="Tools/Traps"/>
+        </item>
+        <item name="itemCaptureMountainLion">
+            <property name="Tags" value="tool"/>
+            <property name="CustomIcon" value="companionMountainLionWhistle" />
+            <property name="HoldType" value="40"/>
+            <property name="DisplayType" value="tool"/>
+            <property name="Meshfile" value="@:Other/Items/Misc/whistlePrefab.prefab"/>
+            <property name="Material" value="Morganic"/>
+            <property name="Stacknumber" value="1"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="EntityClass" value="companionMountainLion"/>
+            <property class="Action0">
+                <property name="Class" value="DireWolfMod.ItemActionDeployDireCompanion, DireWolfMod"/>
+            </property>
+            <property name="Group" value="Tools/Traps"/>
+        </item>
+        <item name="itemCaptureCoyote">
+            <property name="Tags" value="tool"/>
+            <property name="CustomIcon" value="companionCoyoteWhistle" />
+            <property name="HoldType" value="40"/>
+            <property name="DisplayType" value="tool"/>
+            <property name="Meshfile" value="@:Other/Items/Misc/whistlePrefab.prefab"/>
+            <property name="Material" value="Morganic"/>
+            <property name="Stacknumber" value="1"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="EntityClass" value="companionCoyote"/>
+            <property class="Action0">
+                <property name="Class" value="DireWolfMod.ItemActionDeployDireCompanion, DireWolfMod"/>
+            </property>
+            <property name="Group" value="Tools/Traps"/>
+        </item>
+        <item name="itemCaptureDoe">
+            <property name="Tags" value="tool"/>
+            <property name="CustomIcon" value="companionDoeWhistle" />
+            <property name="HoldType" value="40"/>
+            <property name="DisplayType" value="tool"/>
+            <property name="Meshfile" value="@:Other/Items/Misc/whistlePrefab.prefab"/>
+            <property name="Material" value="Morganic"/>
+            <property name="Stacknumber" value="1"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="EntityClass" value="companionDoe"/>
+            <property class="Action0">
+                <property name="Class" value="DireWolfMod.ItemActionDeployDireCompanion, DireWolfMod"/>
+            </property>
+            <property name="Group" value="Tools/Traps"/>
+        </item>
+        <item name="itemCaptureBuck">
+            <property name="Tags" value="tool"/>
+            <property name="CustomIcon" value="companionBuckWhistle" />
+            <property name="HoldType" value="40"/>
+            <property name="DisplayType" value="tool"/>
+            <property name="Meshfile" value="@:Other/Items/Misc/whistlePrefab.prefab"/>
+            <property name="Material" value="Morganic"/>
+            <property name="Stacknumber" value="1"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="EntityClass" value="companionBuck"/>
+            <property class="Action0">
+                <property name="Class" value="DireWolfMod.ItemActionDeployDireCompanion, DireWolfMod"/>
+            </property>
+            <property name="Group" value="Tools/Traps"/>
+        </item>
+        <item name="itemCaptureSnake">
+            <property name="Tags" value="tool"/>
+            <property name="CustomIcon" value="companionSnakeWhistle" />
+            <property name="HoldType" value="40"/>
+            <property name="DisplayType" value="tool"/>
+            <property name="Meshfile" value="@:Other/Items/Misc/whistlePrefab.prefab"/>
+            <property name="Material" value="Morganic"/>
+            <property name="Stacknumber" value="1"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="EntityClass" value="companionSnake"/>
+            <property class="Action0">
+                <property name="Class" value="DireWolfMod.ItemActionDeployDireCompanion, DireWolfMod"/>
+            </property>
+            <property name="Group" value="Tools/Traps"/>
+        </item>
+        <item name="itemCaptureRabbit">
+            <property name="Tags" value="tool"/>
+            <property name="CustomIcon" value="companionRabbitWhistle" />
+            <property name="HoldType" value="40"/>
+            <property name="DisplayType" value="tool"/>
+            <property name="Meshfile" value="@:Other/Items/Misc/whistlePrefab.prefab"/>
+            <property name="Material" value="Morganic"/>
+            <property name="Stacknumber" value="1"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="EntityClass" value="companionRabbit"/>
+            <property class="Action0">
+                <property name="Class" value="DireWolfMod.ItemActionDeployDireCompanion, DireWolfMod"/>
+            </property>
+            <property name="Group" value="Tools/Traps"/>
+        </item>
+
+        <!-- Remove Saddle tool: clears saddle and bags from targeted companion only -->
+        <item name="itemWolfSaddleRemove">
+            <property name="Tags" value="tool"/>
+            <property name="CustomIcon" value="direWolfSaddle" />
+            <property name="HoldType" value="40"/>
+            <property name="DisplayType" value="tool"/>
+            <property name="Meshfile" value="@:Other/Items/Misc/whistlePrefab.prefab"/>
+            <property name="Material" value="Morganic"/>
+            <property name="Stacknumber" value="1"/>
+            <property name="EconomicValue" value="100"/>
+            <property name="CreativeMode" value="None"/>
+            <property name="Group" value="Tools/Traps"/>
+            <!-- Disabled: saddle removal not needed -->
+        </item>
+
+        <!-- Animal-specific loot items for whistle recipes -->
+        <item name="itemDireWolfFang">
+            <property name="CustomIcon" value="itemDireWolfFang" />
+            <property name="Meshfile" value="@:Other/Items/Misc/whistlePrefab.prefab"/>
+            <property name="Material" value="Morganic"/>
+            <property name="Stacknumber" value="100"/>
+            <property name="EconomicValue" value="80"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="Group" value="Resources"/>
+        </item>
+         <item name="itemDireWolfClaw">
+            <property name="CustomIcon" value="itemDireWolfClaw" />
+            <property name="Meshfile" value="@:Other/Items/Misc/whistlePrefab.prefab"/>
+            <property name="Material" value="Morganic"/>
+            <property name="Stacknumber" value="100"/>
+            <property name="EconomicValue" value="80"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="Group" value="Resources"/>
+        </item>
+        <item name="itemWolfFang">
+            <property name="CustomIcon" value="itemWolfFang" />
+            <property name="Meshfile" value="@:Other/Items/Misc/whistlePrefab.prefab"/>
+            <property name="Material" value="Morganic"/>
+            <property name="Stacknumber" value="100"/>
+            <property name="EconomicValue" value="60"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="Group" value="Resources"/>
+        </item>
+        <item name="itemBearClaw">
+            <property name="CustomIcon" value="itemBearClaw" />
+            <property name="Meshfile" value="@:Other/Items/Misc/whistlePrefab.prefab"/>
+            <property name="Material" value="Morganic"/>
+            <property name="Stacknumber" value="100"/>
+            <property name="EconomicValue" value="70"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="Group" value="Resources"/>
+        </item>
+        <item name="itemVultureFeather">
+            <property name="CustomIcon" value="itemVultureFeather" />
+            <property name="Meshfile" value="@:Other/Items/Misc/whistlePrefab.prefab"/>
+            <property name="Material" value="Morganic"/>
+            <property name="Stacknumber" value="100"/>
+            <property name="EconomicValue" value="50"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="Group" value="Resources"/>
+        </item>
+        <item name="itemMountainLionClaw">
+            <property name="CustomIcon" value="direWolfClaw" />
+            <property name="Meshfile" value="@:Other/Items/Misc/whistlePrefab.prefab"/>
+            <property name="Material" value="Morganic"/>
+            <property name="Stacknumber" value="100"/>
+            <property name="EconomicValue" value="70"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="Group" value="Resources"/>
+        </item>
+        <item name="itemCoyoteFang">
+            <property name="CustomIcon" value="direWolfFang" />
+            <property name="Meshfile" value="@:Other/Items/Misc/whistlePrefab.prefab"/>
+            <property name="Material" value="Morganic"/>
+            <property name="Stacknumber" value="100"/>
+            <property name="EconomicValue" value="55"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="Group" value="Resources"/>
+        </item>
+        <item name="itemSnakeScale">
+            <property name="CustomIcon" value="companionSnakeWhistle" />
+            <property name="Meshfile" value="@:Other/Items/Misc/whistlePrefab.prefab"/>
+            <property name="Material" value="Morganic"/>
+            <property name="Stacknumber" value="100"/>
+            <property name="EconomicValue" value="65"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="Group" value="Resources"/>
+        </item>
+        <item name="itemDoeTail">
+            <property name="CustomIcon" value="companionDoeWhistle" />
+            <property name="Meshfile" value="@:Other/Items/Misc/whistlePrefab.prefab"/>
+            <property name="Material" value="Morganic"/>
+            <property name="Stacknumber" value="100"/>
+            <property name="EconomicValue" value="45"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="Group" value="Resources"/>
+        </item>
+        <item name="itemBuckAntler">
+            <property name="CustomIcon" value="companionBuckWhistle" />
+            <property name="Meshfile" value="@:Other/Items/Misc/whistlePrefab.prefab"/>
+            <property name="Material" value="Morganic"/>
+            <property name="Stacknumber" value="100"/>
+            <property name="EconomicValue" value="75"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="Group" value="Resources"/>
+        </item>
+        <item name="itemRabbitFoot">
+            <property name="CustomIcon" value="itemRabbitFoot" />
+            <property name="Meshfile" value="@:Other/Items/Misc/whistlePrefab.prefab"/>
+            <property name="Material" value="Morganic"/>
+            <property name="Stacknumber" value="100"/>
+            <property name="EconomicValue" value="40"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="Group" value="Resources"/>
+        </item>
+
+        <!-- Compatibility stubs for external mod loot/trader references -->
+        <item name="foodFrenchFries">
+            <property name="Tags" value="food"/>
+            <property name="Meshfile" value="@:Other/Items/Misc/whistlePrefab.prefab"/>
+            <property name="Material" value="Morganic"/>
+            <property name="Stacknumber" value="50"/>
+            <property name="EconomicValue" value="20"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="Group" value="Food/Cooking"/>
+        </item>
+        <item name="foodPeaSoup">
+            <property name="Tags" value="food"/>
+            <property name="Meshfile" value="@:Other/Items/Misc/whistlePrefab.prefab"/>
+            <property name="Material" value="Morganic"/>
+            <property name="Stacknumber" value="50"/>
+            <property name="EconomicValue" value="20"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="Group" value="Food/Cooking"/>
+        </item>
+    </append>
+</configs>
+

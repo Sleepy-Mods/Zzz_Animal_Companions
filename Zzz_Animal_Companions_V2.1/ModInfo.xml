@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+	<Name value="Zzz_Animal_Companions_V2.1" />
+	<DisplayName value="Zzz Animal Companions V2.1" />
+	<Description value="Summon friendly animal companions that follow and assist you." />
+	<Author value="Sleepy Mods" />
+	<Version value="2.1.0" />
+	<SkipWithAntiCheat value="true" />
+</xml>
+
