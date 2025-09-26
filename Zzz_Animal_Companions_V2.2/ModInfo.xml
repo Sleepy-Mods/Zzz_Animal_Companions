@@ -1,10 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <xml>
-	<Name value="Zzz_Animal_Companions_V2.2" />
-	<DisplayName value="Zzz Animal Companions V2.2" />
-	<Description value="Summon friendly animal companions that follow and assist you." />
-	<Author value="Sleepy Mods" />
-	<Version value="2.2.0" />
-	<SkipWithAntiCheat value="true" />
+<Name value="DireWolfMod"/>
+<DisplayName value="Dire Wolf Companion"/>
+<Description value="Summon friendly animal companion that follows and assists you."/>
+<Author value="Sleepy Mods"/>
+<Version value="2.0.0"/>
+<SkipWithAntiCheat value="true"/>
 </xml>
 
